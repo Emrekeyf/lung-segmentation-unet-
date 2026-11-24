@@ -36,9 +36,9 @@ Python 3.11 önerilir. Önce sanal ortam oluşturup bağımlılıkları yükleyi
 
 ```cmd
 py -3.11 -m venv .venv
-.venv\\Scripts\\python.exe -m pip install -r requirements.txt
-.venv\\Scripts\\python.exe segmentasyon\\modern\_segmentasyon.py
-.venv\\Scripts\\python.exe jsrt\_dogrulama\\referans\_kaynak\_kontrol.py
+.venv\\\\Scripts\\\\python.exe -m pip install -r requirements.txt
+.venv\\\\Scripts\\\\python.exe segmentasyon\\\\modern\_segmentasyon.py
+.venv\\\\Scripts\\\\python.exe jsrt\_dogrulama\\\\referans\_kaynak\_kontrol.py
 ```
 
 `segmentasyon/modern\_segmentasyon.py`, `data/rontgen\_512.png` ve isteğe bağlı `data/stego.png` dosyasından `outputs/modern\_sonuclar/` altına maske, ROI ve overlay üretir. Eğitim yapmaz.
