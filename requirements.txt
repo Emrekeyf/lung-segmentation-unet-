@@ -1,0 +1,8 @@
+numpy>=1.26,<2
+opencv-python>=4.7
+scikit-image>=0.21
+matplotlib>=3.7
+pandas>=2.0
+torch==2.5.1
+torchvision==0.20.1
+lungs-segmentation==1.1.2
